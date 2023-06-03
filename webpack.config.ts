@@ -4,7 +4,7 @@ import devServer from 'webpack-dev-server';
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 const config: Configuration = {
-    mode: 'production',
+    mode: 'development',
     entry: "./src/index.tsx",
     module: {
         rules: [
